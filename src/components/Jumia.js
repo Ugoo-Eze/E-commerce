@@ -11,7 +11,7 @@ import MonetizationOnOutlinedIcon from "@material-ui/icons/MonetizationOnOutline
 import Account from "./../components/Account";
 import Help from "./../components/Help";
 import Products from "./../components/Products";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 function Jumia() {
   const [popLogin, setPopLogin] = useState(false);
@@ -24,7 +24,6 @@ function Jumia() {
   //     .then((res) => res.json())
   //     // .then(products => console.log(products))
   //     // setGetProduct(products.data)
-      
 
   //     return { props: { products } };
   //   }
@@ -63,7 +62,6 @@ function Jumia() {
       </div>
       <div className="product__rows">
         <Products
-        
           id="12321341"
           title="You Don't Know JS Yet: Drives deep into the core mechanisim of JavaScript"
           price={12000}
@@ -77,7 +75,7 @@ function Jumia() {
           rating={4}
           image="https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/M/W/153608_1569283611.jpg "
         />
-         <Products
+        <Products
           id="12301341"
           title="Sony Playstation 4 Pro 1tb Console - Black Sony Playing Station 4 - 500GB.Prepare yourself for the greatest gaming console to ever grace the world of gaming."
           price={200000.99}
