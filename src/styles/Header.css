@@ -1,0 +1,104 @@
+.header {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  height: 80px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  padding-left: 90px;
+}
+
+.header > img {
+  width: 100px;
+  height: 50px;
+  object-fit: contain;
+  margin-left: 90px;
+  margin-right: 90px;
+  cursor: pointer;
+}
+
+.header__search {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex: 1;
+}
+
+.headerSearch__input {
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.headerSearch__input > input {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 10px;
+}
+
+.header__searchIcon {
+  color: gray;
+  margin-left: 10px;
+}
+
+.headerSearch__button {
+  background-color: orangered !important;
+  color: whitesmoke !important;
+  margin-top: 15px !important;
+  margin-bottom: 15px !important;
+  margin-left: 10px !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  cursor: pointer;
+  box-shadow: 0px 5px 17px -7px rgba(0, 0, 0, 0.75);
+}
+
+.header__right {
+  display: flex;
+  margin-right: 90px;
+  cursor: pointer;
+}
+
+.headerRight__option {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+/* .headerRight__option .MuiSvgIcon-root:hover {
+    color: rgb(255, 166, 0) !important;
+    background-color: white !important;
+} */
+
+.headerRight__option > h5 {
+  padding: 5px;
+  color: rgb(56, 56, 56);
+  font-size: medium;
+}
+
+.headerRight__optionCart > strong {
+  position: absolute;
+  border-radius: 50px;
+  background-color: orangered;
+  color: white;
+  padding-right: 5px;
+  padding-left: 5px;
+  align-items: center;
+  padding-bottom: 1px;
+}
+
+.headerRight__option > h5:hover {
+  color: orangered !important;
+  background-color: white !important;
+}
+
+.headerRight__option:hover {
+  color: orangered !important;
+  background-color: white !important;
+}

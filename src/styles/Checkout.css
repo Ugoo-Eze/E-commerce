@@ -1,0 +1,21 @@
+.checkout {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+}
+
+.checkout__left {
+    justify-content: space-between;
+}
+
+.checkoutoutRight__btn {
+    background-color: orangered;
+    /* border: 1px solid;
+    border-color: #a88734 #9c7e31 #846a29; */
+    cursor: pointer;
+    height: 45px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border: none;
+}

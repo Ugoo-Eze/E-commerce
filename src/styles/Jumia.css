@@ -1,0 +1,32 @@
+.jumia {
+  background-color: whitesmoke;
+  min-height: 100vh;
+  min-width: 100vh;
+}
+
+.jumia__body {
+  display: flex;
+  width: 89%;
+  margin: auto;
+  justify-content: space-around;
+  padding-top: 15px;
+  padding-bottom: 4px;
+}
+
+.jumia__goods {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 90px;
+  margin-right: 90px;
+  margin-top: 14px;
+  margin-bottom: 15px;
+}
+
+.product__rows {
+  display: flex;
+  margin-left: 90px;
+  margin-right: 90px;
+  background-color: white;
+  margin-bottom: 10px;
+  border-radius: 7px;
+}

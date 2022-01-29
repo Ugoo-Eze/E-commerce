@@ -1,0 +1,25 @@
+.goodsOption {
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    border-radius: 7px;
+    font-size: small;
+    text-align: center;
+    box-shadow: 0px 5px 17px -7px rgba(0, 0, 0, 0.75);
+    cursor: pointer;
+}
+
+.goodsOption > .MuiSvgIcon-root {
+    padding: 5px;
+    font-size: 30px;
+    border: 1px;
+    border-radius: 50px;
+    background-color: orangered !important;
+    color: white;
+    margin-right: 15px;
+}
+
+.goodsOption > h3 {
+    padding-right: 90px;
+    padding-top: 8px;
+}

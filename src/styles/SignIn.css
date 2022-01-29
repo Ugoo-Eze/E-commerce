@@ -1,0 +1,24 @@
+.signIn {
+  display: grid;
+  height: 100vh;
+  width: 100%;
+  place-items: center;
+}
+
+.signIn > h2 {
+  color: orangered;
+  font-weight: 500;
+}
+
+.signIn > img {
+  object-fit: contain;
+  height: 201px;
+}
+
+.signIn > Button {
+  background-color: orangered !important;
+  color: white !important;
+  width: 300px !important;
+  font-weight: 500;
+  padding: 10px;
+}

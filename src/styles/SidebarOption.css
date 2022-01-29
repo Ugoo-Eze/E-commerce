@@ -1,0 +1,20 @@
+.sidebarOption {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    font-size: small;
+    padding: auto;
+    cursor: pointer;
+}
+
+.sidebarOption > .MuiSvgIcon-root {
+    font-size: 20px;
+    margin-right: 5px;
+    color: rgb(49, 49, 49);
+}
+
+.sidebarOption:hover {
+    /* cursor: pointer; */
+    color: orangered;
+}

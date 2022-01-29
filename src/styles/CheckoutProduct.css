@@ -1,0 +1,31 @@
+.checkout__product {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 89%;
+  margin: auto;
+  padding-top: 15px;
+  padding-bottom: 4px;
+}
+
+.checkoutProduct__info {
+  padding-right: 166px;
+  justify-content: space-between;
+  width: min-content;
+}
+
+.checkoutButton {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkoutButton > button {
+  background-color: orangered;
+  border: 1px solid;
+  border-color: #a88734 #9c7e31 #846a29;
+  cursor: pointer;
+  height: 30px;
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
